@@ -122,6 +122,7 @@ library(gWidgets2)
 
 w <- gwindow("t-test example", visible=FALSE)
 sb <- gstatusbar(cont=w)
+pb <- gprogressbar(value=10, container=w)
 g <- gvbox(cont=w)
 g$set_borderwidth(10)
 fl <- gformlayout(cont=g)

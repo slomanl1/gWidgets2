@@ -3,7 +3,7 @@ w <- gwindow("Form layout example")
 
 g <- ggroup(cont=w, horizontal=FALSE)
 fl <- gformlayout(cont=g)
-
+pb=gprogressbar(cont=fl)
 ## arguments for a t.test
 gedit("", initial="A variable name", label="x", cont=fl)
 e <- gedit("", initial="(optional) variable name", label="y", cont=fl)
